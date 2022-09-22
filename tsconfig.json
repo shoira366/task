@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "rootDir": "./",
+        "outDir": "./dist"
+    },
+    "lib": ["es2017.string"],
+    "include": [
+        "./src/**/*.ts",
+        "./server.ts",
+        "./package.json"
+    ],
+    "exclude": [
+        "./node_modules"
+    ]
+}
